@@ -6,18 +6,22 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Teste</title>
+    <script>
+        // Authorization token that must have been created previously. See : https://developer.spotify.com/documentation/web-api/concepts/authorization
+        
+    </script>
 </head>
 <body>
     <header>
         <nav>
             <span class="logo">
-                <img class="logo-img" src="assets/logo-daniel.png">
+                <img class="logo-img glow" src="assets/logo-daniel.png">
             </span>
             <ul class="menu">
                 <li><a>Home</a></li>
-                <li><a>Receitas</a></li>
-                <li><a>Novidades</a></li>
-                <li><a>Melhor Avaliadas</a></li>
+                <li><a>Sobre Mim</a></li>
+                <li><a>Sonho</a></li>
+                <li><a>Habilidades</a></li>
             </ul>
             <a class="github">GitHub</a>
         </nav>
@@ -31,10 +35,10 @@
                     <img class="banner" src="assets/daveandcia.png"/>
                 </div>
                 <header class="hero-content">
-                    <span class="destaque brown">novidade</span>
-                    <h1 class="glow">Bem vindo ao meu universo!</h1>
+                    
+                    <h1 class="glow">Bem vindo ao meu universo</h1>
                     <hr/>
-                    <h2 class="hero-subtitle">Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+                    <h2 class="hero-subtitle">"Because every day is still a blank page, waiting to write itself"</h2>
                 </header>
             </section>
         </div>
@@ -44,25 +48,73 @@
         </button>
        </section>
        <section class="about-me">
-        <header class="about-header">
-            <h1 class="glow">Encontre a receita perfeita!</h1>
-            <!-- <p class="about-subtitle">Dê uma olhada nas receitas mais amadas!</p> -->
-        </header>
             <div class="most-about">
                 <header class="about-content">
-                    <span class="destaque brown">novidade</span>
+                    <h2 class="sub">-  Quem sou</h2>
                     <hr/>
-                    <h2 class="about-subtitle">Formado em técnico de Desenvolvimento de Sistemas.
+                    <p>Formado em técnico de Desenvolvimento de Sistemas.
                         Sou um programador focado em Front-End, com conhecimento em Java Script, C#, PHP, HTML, CSS e também com bancos de dados como MySQL.
                         Busco aprender mais sobre este mundo fascinante da programação, tentando compreender como funciona este mundo digital, e como posso criar projetos incríveis. 
-                        Atualmente estou no segundo semestre de Ciências da Computação na Anhanguera</h2>
+                        Atualmente estou no segundo semestre de Ciências da Computação na Anhanguera</p>
                 </header>
                 <div class="about-image-container" >
                     <img class="about-img" src="https://avatars.githubusercontent.com/u/69171112?v=4"/>
                 </div>
             </div>
-       </section>
-       
+        </section>
+        <div class="music-color">
+            <section class="music">
+                <div class="music-img">
+                    <img class="noodle" src="assets/noodle.png" alt="">
+                </div>
+                <div class="music-spot">
+                    <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1ZgjFYJxJkmEmUvL3l4D8B?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                
+                        
+                <div class="music-text">
+                    <h2 class="sub right">A música que me move -</h2>
+                    <hr/>
+                    <p>
+                        Um fato sobre a minha vida é que eu sou apaixonado por música, em diversos momentos elas me salvaram, me inspirando, me dando força para seguir em frente.
+                    </p>
+                    <p>
+                        Mas não só isso, em muitos momentos a música me deu muita criatividade, principalmente trabalhando como programação, e de verdade, codar com uma trilha
+                        sonora de fundo é maravilhoso.
+                    </p>
+                    <p>
+                        Por isso criei esta playlist, perfeita para codar, e com uma pequena parte de mim em cada música.
+                    </p>
+                </div>   
+            </section>
+        </div>
+        <div class="dream-color">
+            <section class="dream">
+                <div class="dream-text">
+                    <h2 class="sub">- Um sonho realizado</h2>
+                    <hr/>
+                    <p>
+                        Em 2023 eu tive a opurtunidade de realizar o meu sonho de ver o Foo Fighters ao vivo. A banda da minha vida, e este foi um dos melhores dias da minha vida.
+                       
+                    </p>
+                    <p>
+                        E realizar este sonho só foi possível por conta do meu primeiro estágio, eu venho de uma família que não tem muio dinheiro, e eu conseguir a minha independência para ir
+                        ao show foi incrível.
+                    </p>
+                    <p>
+                        Foo Fighters foi uma banda muito importante para a minha vida, esteve comigo em momentos muito difíceis e em momentos felizes, sempre vou lembrar de quando esteva no meu quarto
+                        terminando meu TCC da etec, e estava preso em um certo código, e tocou Long Road to , eu parei e curti a música quando eu voltei pensei num  outro jeito de faezr o laço de repetição.
+                    </p>
+                    <p>
+                        Eles estão presentes em diversos momentos da minha vida, e poder ver eles ao vivo foi perfeito.
+                    </p>
+                </div>
+                <div class="dream-img">
+                    <img src="assets/daniel-foo.jpg" class="dream-me">
+                    <img src="assets/davelive.jpg" class="dream-dave">
+                </div>
+            </section>
+        </div>
        <!-- <section class="receitas">
             <header class="receitas-header">
                 <span class="destaque brown">receitas</span>
