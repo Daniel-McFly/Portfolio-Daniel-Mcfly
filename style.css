@@ -34,6 +34,20 @@ nav{
     /* color: #35353580; */
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    transition: all 0.5s;
+    display: none;
+}
+
+.hamburg{
+    width: 3rem ;
+}
+input[type="checkbox"]{
+    display:none;
+}
 .github{
    
     font-weight: 600;
@@ -446,9 +460,11 @@ footer{
 
 @media screen and (max-width: 920px){
     nav{
-        max-width: 1020px;
+        max-width: 900px;
         margin: auto;
-        padding: 1.5rem, 10rem;
+        padding: 0rem, 5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -463,7 +479,7 @@ footer{
         text-transform: uppercase;
     }
     .logo-img{
-        height: 7rem;
+        height: 5.6rem;
         padding: 1rem 0rem;
     }
     .menu{
@@ -476,6 +492,46 @@ footer{
        
         font-weight: 600;
     }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu-icon {
+        display: block;
+        width: 20%;
+    }
+    .icon{
+        width: 100%;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
     .hero{
         display: flex;
         flex-direction: column-reverse;
@@ -486,7 +542,7 @@ footer{
         gap: 0rem;
         align-items: center;
         padding: 0rem,0rem;
-        overflow: clip;
+        overflow: none;
         padding-left: 1rem;
         padding-right: 1rem;
         margin-bottom: 0;
