@@ -479,8 +479,8 @@ footer{
         text-transform: uppercase;
     }
     .logo-img{
-        height: 5.6rem;
-        padding: 1rem 0rem;
+        height: 3.5rem;
+        padding: 0rem 0rem;
     }
     .menu{
         display: none;
@@ -490,7 +490,8 @@ footer{
     
     .github{
        
-        font-weight: 600;
+        height: 3.5rem;
+        padding: 0rem 0rem;
     }
 
     .mobile-menu-icon button {
@@ -500,7 +501,7 @@ footer{
     }
     .mobile-menu-icon {
         display: block;
-        width: 25%;
+        width: 23%;
     }
     .icon{
         width: 100%;
